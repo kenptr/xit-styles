@@ -1,0 +1,49 @@
+@import '../variables.css';
+
+.card-container {
+  margin: auto;
+  max-width: calc(var(--ct-card-maxwidth) + 1rem);
+}
+.card-container:before,
+.card-container:after {
+  content: " ";
+  display: table
+}
+.card-container:after { clear: both }
+
+.card {
+  margin: .5rem;
+  padding: calc(5 * var(--u));
+  border-radius: var(--r2);
+  background-color: var(--neutral-1);
+}
+
+@media (--mobile-m) {
+  .card-container {
+    max-width: calc(var(--ct-card-maxwidth) + 2rem);
+  }
+  .card {
+    padding: calc(6 * var(--u)) calc(8 * var(--u));
+    margin: 1rem;
+  }
+}
+
+@media (--mobile-l) {
+  .card-container {
+    max-width: calc(var(--ct-card-maxwidth) + 3rem);
+  }
+  .card {
+    padding: calc(9 * var(--u)) calc(12 * var(--u));
+    margin: 1.5rem;
+  }
+}
+
+@media (--tablet) {
+  .card-container {
+    max-width: calc(var(--ct-card-maxwidth) + 4rem);
+  }
+  .card {
+    padding: calc(12 * var(--u)) calc(16 * var(--u));
+    margin: 2rem;
+  }
+}

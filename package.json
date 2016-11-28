@@ -1,0 +1,27 @@
+{
+  "name": "xit-styles",
+  "version": "0.1.0",
+  "description": "Global CSS styles and variables to be used within XIT ecosystem",
+  "main": "index.css",
+  "repository": "git@git.sparcit.com:sparcit/xit-styles.git",
+  "author": "Vadim Kotov <igeeko@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "postcss -c postcss.config.js ./index.css --dir example -w"
+  },
+  "dependencies": {
+    "normalize.css": "^5.0.0",
+    "tachyons-box-sizing": "^3.1.9"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.3",
+    "postcss": "^5.2.6",
+    "postcss-calc": "^5.3.1",
+    "postcss-cli": "^2.6.0",
+    "postcss-color-function": "^2.0.1",
+    "postcss-custom-media": "^5.0.1",
+    "postcss-custom-properties": "^5.0.1",
+    "postcss-discard-comments": "^2.0.4",
+    "postcss-smart-import": "^0.6.0"
+  }
+}
