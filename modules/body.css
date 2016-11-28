@@ -1,0 +1,13 @@
+@import '../variables.css';
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: var(--neutral-2);
+  color: var(--neutral-5);
+  font-family: var(--system-font);
+  line-height: var(--lh3);
+}

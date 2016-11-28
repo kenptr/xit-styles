@@ -1,0 +1,17 @@
+@import '../variables.css';
+
+.mblh1 {
+  margin-bottom: var(--lh1);
+}
+
+.mblh2 {
+  margin-bottom: var(--lh2);
+}
+
+.mblh3, .mblh {
+  margin-bottom: var(--lh3);
+}
+
+.mblh4, .mblh5, .mblh6 {
+  margin-bottom: var(--lh4);
+}
