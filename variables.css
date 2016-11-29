@@ -3,15 +3,15 @@
   --u: .25rem; /* 4px */
 
   /* Type scale */
-  --h1: calc(6 * var(--u));
-  --h2: calc(5 * var(--u));
-  --h3: calc(3.75 * var(--u));
-  --h4: calc(3 * var(--u));
+  --h1: calc(6.25 * var(--u));
+  --h2: calc(5.25 * var(--u));
+  --h3: calc(4.25 * var(--u));
+  --h4: calc(3.25 * var(--u));
 
-  --lh1: calc(7 * var(--u));
-  --lh2: calc(6 * var(--u));
-  --lh3: calc(5 * var(--u));
-  --lh4: calc(4 * var(--u));
+  --lh1: calc(8 * var(--u));
+  --lh2: calc(7 * var(--u));
+  --lh3: calc(6 * var(--u));
+  --lh4: calc(5 * var(--u));
 
   /* Defaults */
   --h: var(--h3);
