@@ -5,7 +5,7 @@
   /* Type scale */
   --h1: calc(6.25 * var(--u));
   --h2: calc(5.25 * var(--u));
-  --h3: calc(4.25 * var(--u));
+  --h3: calc(4 * var(--u));
   --h4: calc(3.25 * var(--u));
 
   --lh1: calc(8 * var(--u));
