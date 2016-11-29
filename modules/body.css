@@ -8,6 +8,7 @@ body {
   height: 100%;
   background-color: var(--neutral-2);
   color: var(--neutral-5);
+  font-size: var(--h);
   font-family: var(--system-font);
-  line-height: var(--lh3);
+  line-height: var(--lh);
 }
