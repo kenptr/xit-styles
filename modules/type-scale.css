@@ -7,11 +7,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .h1, h1 {
   font-size: var(--h1);
+  font-family: var(--heading-font);
   line-height: var(--lh1);
 }
 
 .h2, h2 {
   font-size: var(--h2);
+  font-family: var(--heading-font);
   line-height: var(--lh2);
 }
 
@@ -31,25 +33,25 @@ p {
 }
 
 .h1 p, p.h1 {
+  margin-bottom: var(--lh1);
   font-size: var(--h1);
   line-height: var(--lh1);
-  margin-bottom: var(--lh1);
 }
 
 .h2 p, p.h2 {
+  margin-bottom: var(--lh2);
   font-size: var(--h2);
   line-height: var(--lh2);
-  margin-bottom: var(--lh2);
 }
 
 .h3 p, p.h3 {
+  margin-bottom: var(--lh3);
   font-size: var(--h3);
   line-height: var(--lh3);
-  margin-bottom: var(--lh3);
 }
 
 .h4 p, p.h4 {
+  margin-bottom: var(--lh4);
   font-size: var(--h4);
   line-height: var(--lh4);
-  margin-bottom: var(--lh4);
 }
