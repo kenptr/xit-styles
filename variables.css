@@ -3,19 +3,32 @@
   --u: .25rem; /* 4px */
 
   /* Type scale */
-  --h1: calc(6.25 * var(--u));
-  --h2: calc(5.25 * var(--u));
-  --h3: calc(4 * var(--u));
-  --h4: calc(3.25 * var(--u));
+  --h1: calc(6.25 * var(--u)); /* 25px */
+  --h2: calc(5.25 * var(--u)); /* 21px */
+  --h3: calc(4 * var(--u));    /* 16px */
+  --h4: calc(3.25 * var(--u)); /* 13px */
 
-  --lh1: calc(8 * var(--u));
-  --lh2: calc(7 * var(--u));
-  --lh3: calc(6 * var(--u));
-  --lh4: calc(5 * var(--u));
+  --lh1: calc(8 * var(--u));   /* 32px */
+  --lh2: calc(7 * var(--u));   /* 28px */
+  --lh3: calc(6 * var(--u));   /* 24px */
+  --lh4: calc(5 * var(--u));   /* 20px */
+
+  --print-h1: 18pt;
+  --print-h2: 15pt;
+  --print-h3: 12pt;
+  --print-h4: 9pt;
+
+  --print-lh1: 24pt;
+  --print-lh2: 20pt;
+  --print-lh3: 16pt;
+  --print-lh4: 12pt;
 
   /* Defaults */
   --h: var(--h3);
   --lh: var(--lh3);
+
+  --print-h: 12pt;
+  --print-lh: 16pt;
 
   /* constraints */
   /* 45 to 75 characters - ideal for reading */

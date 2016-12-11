@@ -1,7 +1,7 @@
 @import '../variables.css';
 
 .mblh1 {
-  margin-bottom: var(--lh1);
+  margin-bottom: var(--print-lh1);
 }
 
 .mblh2 {
@@ -14,4 +14,22 @@
 
 .mblh4, .mblh5, .mblh6 {
   margin-bottom: var(--lh4);
+}
+
+@media print {
+  .mblh1 {
+    margin-bottom: var(--print-lh1);
+  }
+
+  .mblh2 {
+    margin-bottom: var(--print-lh2);
+  }
+
+  .mblh3, .mblh {
+    margin-bottom: var(--print-lh3);
+  }
+
+  .mblh4, .mblh5, .mblh6 {
+    margin-bottom: var(--print-lh4);
+  }
 }
