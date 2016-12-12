@@ -13,9 +13,9 @@
   --lh3: calc(6 * var(--u));   /* 24px */
   --lh4: calc(5 * var(--u));   /* 20px */
 
-  --print-h1: 18pt;
-  --print-h2: 15pt;
-  --print-h3: 12pt;
+  --print-h1: 17pt;
+  --print-h2: 14pt;
+  --print-h3: 11pt;
   --print-h4: 9pt;
 
   --print-lh1: 24pt;
@@ -27,8 +27,8 @@
   --h: var(--h3);
   --lh: var(--lh3);
 
-  --print-h: 12pt;
-  --print-lh: 16pt;
+  --print-h: var(--print-h3);
+  --print-lh: var(--print-lh3);
 
   /* constraints */
   /* 45 to 75 characters - ideal for reading */
