@@ -70,4 +70,13 @@
   .mbc {
     margin-bottom: 20pt;
   }
+  .card-container {
+    margin: auto;
+    padding: 0;
+    max-width: 100%;
+  }
+  .card-container:before,
+  .card-container:after {
+    display: none;
+  }
 }
