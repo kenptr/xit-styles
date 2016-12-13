@@ -1,9 +1,12 @@
 {
   "name": "xit-styles",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Global CSS styles and variables to be used within XIT ecosystem",
   "main": "index.css",
-  "repository": "git@git.sparcit.com:sparcit/xit-styles.git",
+  "repository": {
+    "url": "git+ssh@git.sparcit.com/sparcit/xit-styles.git",
+    "type": "git"
+  },
   "author": "Vadim Kotov <igeeko@gmail.com>",
   "license": "MIT",
   "scripts": {
