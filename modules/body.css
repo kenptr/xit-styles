@@ -22,7 +22,11 @@ body {
   }
 
   @page {
+    size: A4;
     margin: 2.5cm 2cm 3cm !important;
     padding: 0;
+    @bottom-left {
+      content: 'SparcIt'
+    }
   }
 }
