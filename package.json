@@ -1,6 +1,6 @@
 {
   "name": "xit-styles",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Global CSS styles and variables to be used within XIT ecosystem",
   "main": "index.css",
   "repository": {

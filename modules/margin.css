@@ -1,5 +1,9 @@
 @import '../variables.css';
 
+.mb0 {
+  margin-bottom: 0;
+}
+
 .mblh1 {
   margin-bottom: var(--print-lh1);
 }
