@@ -1,0 +1,30 @@
+@import '../variables.css';
+
+.r1 {
+  border-radius: var(--r1);
+}
+
+.border-top {
+  border-top: 1px solid currentColor;
+}
+
+.border-left {
+  border-left: 1px solid currentColor;
+}
+
+.border-right {
+  border-right: 1px solid currentColor;
+}
+
+.border-bottom {
+  border-bottom: 1px solid currentColor;
+}
+
+.border-y {
+  border-top: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
+}
+
+.border-neutral-3 {
+  border-color: var(--neutral-3);
+}

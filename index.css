@@ -3,9 +3,16 @@
 @import 'tachyons-box-sizing';
 @import './modules/flexbox.css';
 @import './modules/body.css';
+@import './modules/viewport.css';
 @import './modules/type-scale.css';
 @import './modules/font-styles.css';
 @import './modules/layout.css';
+@import './modules/z.css';
+@import './modules/button.css';
+@import './modules/link.css';
+@import './modules/input.css';
+@import './modules/card.css';
 @import './modules/margin.css';
 @import './modules/padding.css';
-@import './modules/card.css';
+@import './modules/colors.css';
+@import './modules/border.css';

@@ -1,0 +1,21 @@
+@import '../variables.css';
+
+.link {
+  text-decoration: none;
+  color: var(--secondary-1-2);
+  display: inline-block;
+}
+
+.link:focus {
+  outline: 0;
+  border-radius: var(--r1);
+  box-shadow: var(--outline);
+}
+
+.underline {
+  border-bottom: 1px solid currentColor;
+}
+
+.link:focus .underline {
+  border: 0;
+}

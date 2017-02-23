@@ -4,3 +4,31 @@
   display: table
 }
 .clearfix:after { clear: both }
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+}
+
+.w-half {
+  width: 50%;
+}

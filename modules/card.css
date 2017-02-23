@@ -1,63 +1,69 @@
 @import '../variables.css';
 
-.card-container {
+.card-container-1,
+.card-container-2 {
   margin: auto;
-  padding: .5rem;
-  max-width: calc(var(--ct-card-maxwidth) + 1rem);
+  padding-left: var(--card-container-px);
+  padding-right: var(--card-container-px);
+  max-width: calc(var(--card-maxwidth-1 + 2 * var(--card-container-px)));
 }
-.card-container:before,
-.card-container:after {
-  display: table;
-  content: " "
+
+.card-container-2 {
+  min-width: calc(var(--card-maxwidth-1 + 2 * var(--card-container-px)));
+  max-width: calc(var(--card-maxwidth-2 + 2 * var(--card-container-px)));
 }
-.card-container:after { clear: both }
 
 .card {
-  padding: calc(5 * var(--u));
+  padding: var(--card-py) var(--card-px);
   border-radius: var(--r2);
   background-color: var(--neutral-1);
 }
 
-.mbc {
-  margin-bottom: .5rem;
-}
-
 @media (--mobile-m) {
-  .mbc {
-    margin-bottom: 1rem;
+  .card-container-1,
+  .card-container-2 {
+    padding-left: var(--card-container-px--mobile-m);
+    padding-right: var(--card-container-px--mobile-m);
+    max-width: calc(var(--card-maxwidth-1 + 2 * var(--card-container-px--mobile-m)));
   }
-  .card-container {
-    padding: 1rem;
-    max-width: calc(var(--ct-card-maxwidth) + 2rem);
+  .card-container-2 {
+    min-width: calc(var(--card-maxwidth-1 + 2 * var(--card-container-px--mobile-m)));
+    max-width: calc(var(--card-maxwidth-2 + 2 * var(--card-container-px--mobile-m)));
   }
   .card {
-    padding: calc(6 * var(--u)) calc(8 * var(--u));
+    padding: var(--card-py--mobile-m) var(--card-px--mobile-m);
   }
 }
 
 @media (--mobile-l) {
-  .mbc {
-    margin-bottom: 1.5rem;
+  .card-container-1,
+  .card-container-2 {
+    padding-left: var(--card-container-px--mobile-l);
+    padding-right: var(--card-container-px--mobile-l);
+    max-width: calc(var(--card-maxwidth-1 + 2 * var(--card-container-px--mobile-l)));
   }
-  .card-container {
-    padding: 1.5rem;
-    max-width: calc(var(--ct-card-maxwidth) + 3rem);
+  .card-container-2 {
+    min-width: calc(var(--card-maxwidth-1 + 2 * var(--card-container-px--mobile-l)));
+    max-width: calc(var(--card-maxwidth-2 + 2 * var(--card-container-px--mobile-l)));
   }
   .card {
-    padding: calc(9 * var(--u)) calc(12 * var(--u));
+    padding: var(--card-py--mobile-l) var(--card-px--mobile-l);
   }
 }
 
 @media (--tablet) {
-  .mbc {
-    margin-bottom: 2rem;
+  .card-container-1,
+  .card-container-2 {
+    padding-left: var(--card-container-px--tablet);
+    padding-right: var(--card-container-px--tablet);
+    max-width: calc(var(--card-maxwidth-1 + 2 * var(--card-container-px--tablet)));
   }
-  .card-container {
-    padding: 2rem;
-    max-width: calc(var(--ct-card-maxwidth) + 4rem);
+  .card-container-2 {
+    min-width: calc(var(--card-maxwidth-1 + 2 * var(--card-container-px--tablet)));
+    max-width: calc(var(--card-maxwidth-2 + 2 * var(--card-container-px--tablet)));
   }
   .card {
-    padding: calc(12 * var(--u)) calc(16 * var(--u));
+    padding: var(--card-py--tablet) var(--card-px--tablet);
   }
 }
 

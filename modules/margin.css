@@ -1,39 +1,56 @@
 @import '../variables.css';
 
+.mb-u {
+  margin-bottom: var(--u);
+}
+
+.mb {
+  margin-bottom: var(--lh);
+}
+
+.mb-double {
+  margin-bottom: calc(var(--lh) * 2);
+}
+
+.mb-semi {
+  margin-bottom: var(--semi-lh);
+}
+
+.ml {
+  margin-left: var(--lh);
+}
+
+.ml-semi {
+  margin-left: var(--semi-lh);
+}
+
+.mr {
+  margin-right: var(--lh);
+}
+
+.mr-semi {
+  margin-right: var(--semi-lh);
+}
+
+.mx-semi {
+  margin-left: var(--semi-lh);
+  margin-right: var(--semi-lh);
+}
+
+.mt {
+  margin-top: var(--lh);
+}
+
+.my {
+  margin-top: var(--lh);
+  margin-bottom: var(--lh);
+}
+
+.my-semi {
+  margin-top: var(--semi-lh);
+  margin-bottom: var(--semi-lh);
+}
+
 .mb0 {
   margin-bottom: 0;
-}
-
-.mblh1 {
-  margin-bottom: var(--print-lh1);
-}
-
-.mblh2 {
-  margin-bottom: var(--lh2);
-}
-
-.mblh3, .mblh {
-  margin-bottom: var(--lh3);
-}
-
-.mblh4, .mblh5, .mblh6 {
-  margin-bottom: var(--lh4);
-}
-
-@media print {
-  .mblh1 {
-    margin-bottom: var(--print-lh1);
-  }
-
-  .mblh2 {
-    margin-bottom: var(--print-lh2);
-  }
-
-  .mblh3, .mblh {
-    margin-bottom: var(--print-lh3);
-  }
-
-  .mblh4, .mblh5, .mblh6 {
-    margin-bottom: var(--print-lh4);
-  }
 }

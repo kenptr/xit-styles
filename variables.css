@@ -2,6 +2,10 @@
   /* Size unit */
   --u: .25rem; /* 4px */
 
+  /* Font-families */
+  --system-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --heading-font: 'Merriweather Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
   /* Type scale */
   --h1: calc(6.25 * var(--u)); /* 25px */
   --h2: calc(5.25 * var(--u)); /* 21px */
@@ -23,29 +27,13 @@
   --print-lh3: 12pt;
   --print-lh4: 12pt;
 
-  /* Defaults */
+  /* Default type sizes */
   --h: var(--h3);
   --lh: var(--lh3);
+  --semi-lh: calc(var(--lh) / 2);
 
   --print-h: var(--print-h3);
   --print-lh: var(--print-lh3);
-
-  /* constraints */
-  /* 45 to 75 characters - ideal for reading */
-  --ct-h1-minwidth: calc(.8 * var(--h1) * 40);
-  --ct-h1-maxwidth: calc(.8 * var(--h1) * 75);
-  --ct-h2-minwidth: calc(.8 * var(--h2) * 40);
-  --ct-h2-maxwidth: calc(.8 * var(--h2) * 75);
-  --ct-h3-minwidth: calc(.8 * var(--h3) * 40);
-  --ct-h3-maxwidth: calc(.8 * var(--h3) * 75);
-  --ct-h4-minwidth: calc(.8 * var(--h4) * 40);
-  --ct-h4-maxwidth: calc(.8 * var(--h4) * 75);
-  /* card maximum width */
-  --ct-card-maxwidth: 48rem;
-
-  /* Font-families */
-  --system-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  --heading-font: 'Merriweather Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
   /* Colors */
   --neutral-0: #FFF;
@@ -62,9 +50,50 @@
   --secondary-2: #FA6B6B;
   --secondary-3: #5DC74F;
 
+  --secondary-1-2: #5877cc;
+
   /* Other units */
   --r1: 3px;
   --r2: .5rem;
+
+  /* constraints */
+  /* 45 to 75 characters - ideal for reading */
+  --ct-h1-minwidth: calc(.8 * var(--h1) * 40);
+  --ct-h1-maxwidth: calc(.8 * var(--h1) * 75);
+  --ct-h2-minwidth: calc(.8 * var(--h2) * 40);
+  --ct-h2-maxwidth: calc(.8 * var(--h2) * 75);
+  --ct-h3-minwidth: calc(.8 * var(--h3) * 40);
+  --ct-h3-maxwidth: calc(.8 * var(--h3) * 75);
+  --ct-h4-minwidth: calc(.8 * var(--h4) * 40);
+  --ct-h4-maxwidth: calc(.8 * var(--h4) * 75);
+
+  /* card maximum width */
+  --ct-card-maxwidth: 48rem;
+
+  /* card */
+  --card-maxwidth-1: 48rem; /* 768px */
+  --card-maxwidth-2: 64rem; /* 1024px */
+
+  --card-px: calc(5 * var(--u));
+  --card-py: calc(5 * var(--u));
+
+  --card-px--mobile-m: calc(8 * var(--u));
+  --card-py--mobile-m: calc(6 * var(--u));
+
+  --card-px--mobile-l: calc(12 * var(--u));
+  --card-py--mobile-l: calc(9 * var(--u));
+
+  --card-px--tablet: calc(16 * var(--u));
+  --card-py--tablet: calc(12 * var(--u));
+
+  --card-container-px: .5rem;
+  --card-container-px--mobile-m: 1rem;
+  --card-container-px--mobile-l: 1.5rem;
+  --card-container-px--tablet: 2rem;
+
+  --drop-shadow: 0px 8px 16px 4px rgba(51, 50, 71, 0.08), 0px 24px 24px -16px rgba(41, 41, 46, 0.44);
+  --inset-shadow: inset 0 1px 2px color(var(--neutral-5) a(20%));
+  --outline: 0 0 0 2px var(--secondary-1);
 }
 
 @custom-media --mobile-s (min-width: 320px);
