@@ -33,6 +33,10 @@
   padding-bottom: calc(var(--lh) * 2);
 }
 
+.p {
+  padding: var(--lh);
+}
+
 .p-semi {
   padding: var(--semi-lh);
 }
