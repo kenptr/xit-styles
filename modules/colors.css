@@ -1,5 +1,14 @@
 @import '../variables.css';
 
+
+.neutral-3 {
+  color: var(--neutral-3);
+}
+
 .neutral-4 {
   color: var(--neutral-4);
+}
+
+.secondary-3 {
+  color: var(--secondary-3);
 }

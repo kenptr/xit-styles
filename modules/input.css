@@ -1,9 +1,12 @@
 .input {
+  box-sizing: border-box;
   position: relative;
   display: inline-block;
   margin: 0;
   padding: 0;
   width: 100%;
+  min-width: 0;
+  max-width: 100%;
   height: auto;
   border: 1px solid var(--neutral-3);
   box-shadow: var(--inset-shadow);
@@ -23,4 +26,6 @@
   outline: 0;
   z-index: 1;
   box-shadow: var(--inset-shadow), var(--outline);
+  border: 0;
+  padding: calc(2 * var(--u)) calc(3 * var(--u));
 }

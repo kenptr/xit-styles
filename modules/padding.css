@@ -33,6 +33,11 @@
   padding-bottom: calc(var(--lh) * 2);
 }
 
+.py-input {
+  padding-top: calc(2 * var(--u));
+  padding-bottom: calc(2 * var(--u));
+}
+
 .p {
   padding: var(--lh);
 }

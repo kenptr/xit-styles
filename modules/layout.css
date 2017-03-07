@@ -32,3 +32,7 @@
 .w-half {
   width: 50%;
 }
+
+.overflow-hidden {
+  overflow: hidden;
+}
