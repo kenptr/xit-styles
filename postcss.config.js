@@ -6,10 +6,10 @@ module.exports = {
     'postcss-calc',
     'postcss-color-function',
     'postcss-discard-comments',
-    'autoprefixer'
+    'autoprefixer',
   ],
   'postcss-smart-import': {
-    onImport: (sources) => {
+    onImport: sources => {
       global.watchCSS(sources);
     },
   },
