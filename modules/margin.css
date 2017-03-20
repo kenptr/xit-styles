@@ -41,6 +41,14 @@
   margin-top: var(--lh);
 }
 
+.mt-semi {
+  margin-top: var(--semi-lh);
+}
+
+.mt-u {
+  margin-top: var(--u);
+}
+
 .my {
   margin-top: var(--lh);
   margin-bottom: var(--lh);

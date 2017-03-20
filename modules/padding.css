@@ -61,3 +61,11 @@
 .pb {
   padding-bottom: var(--lh);
 }
+
+.pr-semi {
+  padding-right: var(--semi-lh);
+}
+
+.pl-semi {
+  padding-left: var(--semi-lh);
+}
