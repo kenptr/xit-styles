@@ -13,20 +13,25 @@
   display: none;
 }
 
-.modal-isActive .viewport {
+.show-modal .viewport {
   overflow: hidden;
 }
 
-.modal-isActive .viewportBody {
+.show-modal .viewportBody {
   top: 0;
   left: 0;
   position: absolute;
 }
 
-.modal-isActive .modal {
+.show-modal .modal {
   display: block;
   position: relative;
   z-index: 9999;
   min-height: 100vh;
   background-color: color(var(--neutral-5) a(50%));
+}
+
+.modal-inactive,
+.show-modal .modal-inactive {
+  display: none;
 }
