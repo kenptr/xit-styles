@@ -4,6 +4,10 @@
   border-radius: var(--r1);
 }
 
+.border {
+  border: 1px solid currentColor;
+}
+
 .border-top {
   border-top: 1px solid currentColor;
 }
@@ -27,4 +31,12 @@
 
 .border-neutral-3 {
   border-color: var(--neutral-3);
+}
+
+.border-neutral-4 {
+  border-color: var(--neutral-4);
+}
+
+.border-secondary-1 {
+  border-color: var(--secondary-1);
 }

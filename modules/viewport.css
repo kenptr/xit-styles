@@ -7,6 +7,8 @@
 
 .viewportBody {
   width: 100%;
+  transform: translate3d(0, 0, 0);
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 .modal {
@@ -34,4 +36,12 @@
 .modal-inactive,
 .show-modal .modal-inactive {
   display: none;
+}
+
+.modal-escape-hatch {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }

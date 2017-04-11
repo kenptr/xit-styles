@@ -46,6 +46,10 @@
   padding: var(--semi-lh);
 }
 
+.p-u {
+  padding: var(--u);
+}
+
 .pr {
   padding-right: var(--lh);
 }
@@ -60,6 +64,10 @@
 
 .pb {
   padding-bottom: var(--lh);
+}
+
+.pb-semi {
+  padding-bottom: var(--semi-lh);
 }
 
 .pr-semi {

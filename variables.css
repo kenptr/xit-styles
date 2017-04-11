@@ -3,7 +3,7 @@
   --u: .25rem; /* 4px */
 
   /* Font-families */
-  --system-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --system-font: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   --heading-font: 'Merriweather Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
   /* Type scale */
@@ -21,7 +21,6 @@
   --print-h2: 12pt;
   --print-h3: 9pt;
   --print-h4: 7pt;
-
   --print-lh1: 16pt;
   --print-lh2: 16pt;
   --print-lh3: 12pt;
@@ -31,25 +30,21 @@
   --h: var(--h3);
   --lh: var(--lh3);
   --semi-lh: calc(var(--lh) / 2);
-
   --print-h: var(--print-h3);
   --print-lh: var(--print-lh3);
 
   /* Colors */
-  --neutral-0: #FFF;
-  --neutral-1: #FAFAFA;
-  --neutral-2: #EAEEF0;
-  --neutral-3: #D6D9DB;
-  --neutral-4: #7E7F82;
+  --neutral-0: #fff;
+  --neutral-1: #fafafa;
+  --neutral-2: #eaeef0;
+  --neutral-3: #d6d9db;
+  --neutral-4: #7e7f82;
   --neutral-5: #272729;
-
-  --primary-1: #FAD86C;
-  --primary-2: #FAB505;
-
-  --secondary-1: #6BA9FA;
-  --secondary-2: #FA6B6B;
-  --secondary-3: #5DC74F;
-
+  --primary-1: #fad86c;
+  --primary-2: #fab505;
+  --secondary-1: #6ba9fa;
+  --secondary-2: #fa6b6b;
+  --secondary-3: #5dc74f;
   --secondary-1-2: #5877cc;
 
   /* Other units */
@@ -76,21 +71,16 @@
 
   --card-px: calc(5 * var(--u));
   --card-py: calc(5 * var(--u));
-
   --card-px--mobile-m: calc(8 * var(--u));
   --card-py--mobile-m: calc(6 * var(--u));
-
   --card-px--mobile-l: calc(12 * var(--u));
   --card-py--mobile-l: calc(9 * var(--u));
-
   --card-px--tablet: calc(16 * var(--u));
   --card-py--tablet: calc(12 * var(--u));
-
   --card-container-px: .5rem;
   --card-container-px--mobile-m: 1rem;
   --card-container-px--mobile-l: 1.5rem;
   --card-container-px--tablet: 2rem;
-
   --drop-shadow: 0px 8px 16px 4px rgba(51, 50, 71, 0.08), 0px 24px 24px -16px rgba(41, 41, 46, 0.44);
   --drop-shadow-1: 0px 8px 16px 4px rgba(51, 50, 71, 0.08), 0px 24px 24px -16px rgba(41, 41, 46, 0.44);
   --drop-shadow-2: 0 1px 2px color(var(--neutral-5) a(20%));
@@ -99,9 +89,15 @@
 }
 
 @custom-media --mobile-s (min-width: 320px);
+
 @custom-media --mobile-m (min-width: 375px);
+
 @custom-media --mobile-l (min-width: 425px);
+
 @custom-media --tablet (min-width: 768px);
+
 @custom-media --laptop (min-width: 1024px);
+
 @custom-media --laptop-l (min-width: 1440px);
+
 @custom-media --4k (min-width: 2560px);

@@ -76,6 +76,12 @@
   border-radius: var(--r1);
 }
 
+.btn-secondary-2 {
+  color: var(--neutral-1);
+  background-color: var(--secondary-2);
+  border-radius: var(--r1);
+}
+
 .btn-joined {
   border: 1px solid var(--neutral-3);
   padding: calc(2 * var(--u) - 1px) calc(3 * var(--u) - 1px);
@@ -86,4 +92,8 @@
   z-index: 1;
   background-color: var(--secondary-1);
   color: var(--neutral-0);
+}
+
+.btn-circle {
+  border-radius: 50%;
 }

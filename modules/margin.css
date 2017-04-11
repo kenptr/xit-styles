@@ -62,3 +62,7 @@
 .mb0 {
   margin-bottom: 0;
 }
+
+.mb-3 {
+  margin-bottom: calc(3 * var(--lh));
+}

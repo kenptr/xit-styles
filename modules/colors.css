@@ -1,6 +1,5 @@
 @import '../variables.css';
 
-
 .neutral-3 {
   color: var(--neutral-3);
 }
@@ -9,6 +8,18 @@
   color: var(--neutral-4);
 }
 
+.secondary-2 {
+  color: var(--secondary-2);
+}
+
 .secondary-3 {
   color: var(--secondary-3);
+}
+
+.bg-opaque-secondary-2 {
+  background: color(var(--secondary-2) a(8%));
+}
+
+.bg-neutral-0 {
+  background: var(--neutral-0);
 }
