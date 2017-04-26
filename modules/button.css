@@ -85,12 +85,14 @@
 .btn-joined {
   border: 1px solid var(--neutral-3);
   padding: calc(2 * var(--u) - 1px) calc(3 * var(--u) - 1px);
+  flex-grow: 1;
+  flex-basis: 0;
 }
 
 .btn-selected {
-  border-color: var(--secondary-1);
+  border-color: var(--secondary-1-2);
   z-index: 1;
-  background-color: var(--secondary-1);
+  background-color: var(--secondary-1-2);
   color: var(--neutral-0);
 }
 

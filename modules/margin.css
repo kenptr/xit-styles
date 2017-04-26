@@ -32,6 +32,10 @@
   margin-right: var(--semi-lh);
 }
 
+.mr-u {
+  margin-right: var(--u);
+}
+
 .mx-semi {
   margin-left: var(--semi-lh);
   margin-right: var(--semi-lh);

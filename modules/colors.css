@@ -23,3 +23,7 @@
 .bg-neutral-0 {
   background: var(--neutral-0);
 }
+
+.bg-neutral-2 {
+  background: var(--neutral-2);
+}

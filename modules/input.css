@@ -29,3 +29,7 @@
   border: 0;
   padding: calc(2 * var(--u)) calc(3 * var(--u));
 }
+
+.input[disabled] {
+  opacity: .5;
+}

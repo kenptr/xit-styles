@@ -8,9 +8,14 @@
   padding-top: var(--semi-lh);
 }
 
-.px-semi-u {
+.py-semi-u {
   padding-top: calc(var(--u) / 2);
   padding-bottom: calc(var(--u) / 2);
+}
+
+.px-u {
+  padding-left: var(--u);
+  padding-right: var(--u);
 }
 
 .py-u {
