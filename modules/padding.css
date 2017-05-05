@@ -14,8 +14,13 @@
 }
 
 .px-u {
-  padding-left: var(--u);
   padding-right: var(--u);
+  padding-left: var(--u);
+}
+
+.px-semi {
+  padding-right: var(--semi-lh);
+  padding-left: var(--semi-lh);
 }
 
 .py-u {

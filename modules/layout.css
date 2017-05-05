@@ -1,9 +1,9 @@
 .clearfix:before,
 .clearfix:after {
+  display: table;
   content: " ";
-  display: table
 }
-.clearfix:after { clear: both }
+.clearfix:after { clear: both; }
 
 .float-left {
   float: left;
@@ -27,6 +27,10 @@
 
 .block {
   display: block;
+}
+
+.full-width {
+  width: 100%;
 }
 
 .w-half {
