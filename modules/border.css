@@ -44,3 +44,18 @@
 .border-secondary-1 {
   border-color: var(--secondary-1);
 }
+
+
+.border-lrb {
+  border-top: 0;
+}
+
+.r1-b {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.r1-t {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}

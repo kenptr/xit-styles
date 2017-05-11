@@ -37,8 +37,8 @@
 }
 
 .mx-semi {
-  margin-left: var(--semi-lh);
   margin-right: var(--semi-lh);
+  margin-left: var(--semi-lh);
 }
 
 .mt {
@@ -69,4 +69,8 @@
 
 .mb-3 {
   margin-bottom: calc(3 * var(--lh));
+}
+
+.m-u {
+  margin: var(--u);
 }
