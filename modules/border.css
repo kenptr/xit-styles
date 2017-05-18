@@ -33,6 +33,10 @@
   border-bottom: 1px solid currentColor;
 }
 
+.border-neutral-2 {
+  border-color: var(--neutral-2);
+}
+
 .border-neutral-3 {
   border-color: var(--neutral-3);
 }
