@@ -8,6 +8,10 @@
   color: var(--neutral-4);
 }
 
+.neutral-5 {
+  color: var(--neutral-5);
+}
+
 .secondary-2 {
   color: var(--secondary-2);
 }

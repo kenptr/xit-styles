@@ -1,34 +1,82 @@
 /* almost exact copy of basscss-flexbox */
 
-.flex { display: flex }
+.flex {
+  display: flex;
+}
 
-.flex-column  { flex-direction: column }
-.flex-wrap    { flex-wrap: wrap }
+.flex-column {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
 
-.items-start    { align-items: flex-start }
-.items-end      { align-items: flex-end }
-.items-center   { align-items: center }
-.items-baseline { align-items: baseline }
-.items-stretch  { align-items: stretch }
+.items-start {
+  align-items: flex-start;
+}
+.items-end {
+  align-items: flex-end;
+}
+.items-center {
+  align-items: center;
+}
+.items-baseline {
+  align-items: baseline;
+}
+.items-stretch {
+  align-items: stretch;
+}
 
-.self-start    { align-self: flex-start }
-.self-end      { align-self: flex-end }
-.self-center   { align-self: center }
-.self-baseline { align-self: baseline }
-.self-stretch  { align-self: stretch }
+.self-start {
+  align-self: flex-start;
+}
+.self-end {
+  align-self: flex-end;
+}
+.self-center {
+  align-self: center;
+}
+.self-baseline {
+  align-self: baseline;
+}
+.self-stretch {
+  align-self: stretch;
+}
 
-.justify-start   { justify-content: flex-start }
-.justify-end     { justify-content: flex-end }
-.justify-center  { justify-content: center }
-.justify-between { justify-content: space-between }
-.justify-around  { justify-content: space-around }
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
 
-.content-start   { align-content: flex-start }
-.content-end     { align-content: flex-end }
-.content-center  { align-content: center }
-.content-between { align-content: space-between }
-.content-around  { align-content: space-around }
-.content-stretch { align-content: stretch }
+.content-start {
+  align-content: flex-start;
+}
+.content-end {
+  align-content: flex-end;
+}
+.content-center {
+  align-content: center;
+}
+.content-between {
+  align-content: space-between;
+}
+.content-around {
+  align-content: space-around;
+}
+.content-stretch {
+  align-content: stretch;
+}
 
 /* Fix for Chrome 44 bug. https://code.google.com/p/chromium/issues/detail?id=506893 */
 .flex-auto {
@@ -37,4 +85,11 @@
   min-height: 0; /* 1 */
 }
 
-.flex-none { flex: none }
+.flex-none {
+  flex: none;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+  flex-basis: 0;
+}
