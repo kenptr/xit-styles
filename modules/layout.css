@@ -1,9 +1,10 @@
-.clearfix:before,
-.clearfix:after {
+.clearfix:before, .clearfix:after {
   display: table;
   content: " ";
 }
-.clearfix:after { clear: both; }
+.clearfix:after {
+  clear: both;
+}
 
 .float-left {
   float: left;
@@ -23,6 +24,10 @@
 
 .inline-block {
   display: inline-block;
+}
+
+.vertical-align-middle {
+  vertical-align: middle;
 }
 
 .block {
