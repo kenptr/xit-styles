@@ -24,6 +24,10 @@
   background: color(var(--secondary-2) a(8%));
 }
 
+.bg-opaque-secondary-1 {
+  background: color(var(--secondary-1) a(8%));
+}
+
 .bg-neutral-0 {
   background: var(--neutral-0);
 }
