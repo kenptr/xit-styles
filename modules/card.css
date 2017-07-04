@@ -71,15 +71,12 @@
   .card {
     background: transparent;
     padding: 0;
-    margin: 0;
   }
-  .card-container {
+  .card-container,
+  .card-container-2 {
     margin: auto;
     padding: 0;
+    width: 100%;
     max-width: 100% !important;
-  }
-  .card-container:before,
-  .card-container:after {
-    display: none;
   }
 }

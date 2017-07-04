@@ -3,19 +3,21 @@
   --u: .25rem; /* 4px */
 
   /* Font-families */
-  --system-font: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  --heading-font: 'Merriweather Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --system-font: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+  --heading-font: 'Merriweather Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
 
   /* Type scale */
   --h1: calc(6.25 * var(--u)); /* 25px */
   --h2: calc(5.25 * var(--u)); /* 21px */
-  --h3: calc(4 * var(--u));    /* 16px */
+  --h3: calc(4 * var(--u)); /* 16px */
   --h4: calc(3.25 * var(--u)); /* 13px */
 
-  --lh1: calc(8 * var(--u));   /* 32px */
-  --lh2: calc(7 * var(--u));   /* 28px */
-  --lh3: calc(6 * var(--u));   /* 24px */
-  --lh4: calc(5 * var(--u));   /* 20px */
+  --lh1: calc(8 * var(--u)); /* 32px */
+  --lh2: calc(7 * var(--u)); /* 28px */
+  --lh3: calc(6 * var(--u)); /* 24px */
+  --lh4: calc(5 * var(--u)); /* 20px */
 
   --print-h1: 15pt;
   --print-h2: 12pt;
@@ -30,8 +32,10 @@
   --h: var(--h3);
   --lh: var(--lh3);
   --semi-lh: calc(var(--lh) / 2);
+
   --print-h: var(--print-h3);
   --print-lh: var(--print-lh3);
+  --print-semi-lh: calc(var(--print-lh) / 2);
 
   /* Colors */
   --neutral-0: #fff;

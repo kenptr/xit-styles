@@ -14,19 +14,12 @@ body {
 }
 
 @media print {
-  body {
-    line-height: var(--print-lh);
-    color: #000;
-    background: none;
-    font-size: var(--print-h);
+  html {
+    font-size: 62.5%;
   }
 
-  @page {
-    size: A4;
-    margin: 2.5cm 2cm 3cm !important;
-    padding: 0;
-    @bottom-left {
-      content: 'SparcIt'
-    }
+  body {
+    color: #000;
+    background: none;
   }
 }
