@@ -1,16 +1,37 @@
 @import '../variables.css';
 
-.bold    { font-weight: bold }
-.regular { font-weight: normal }
-.italic  { font-style: italic }
-.caps    { text-transform: uppercase }
+.bold {
+  font-weight: bold;
+}
+.regular {
+  font-weight: normal;
+}
+.italic {
+  font-style: italic;
+}
+.normal {
+  font-style: normal;
+}
+.caps {
+  text-transform: uppercase;
+}
 
-.left-align   { text-align: left }
-.center       { text-align: center }
-.right-align  { text-align: right }
-.justify      { text-align: justify }
+.left-align {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.right-align {
+  text-align: right;
+}
+.justify {
+  text-align: justify;
+}
 
-.nowrap { white-space: nowrap }
+.nowrap {
+  white-space: nowrap;
+}
 
 .truncate {
   max-width: 100%;
