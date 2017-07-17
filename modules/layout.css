@@ -1,4 +1,5 @@
-.clearfix:before, .clearfix:after {
+.clearfix:before,
+.clearfix:after {
   display: table;
   content: " ";
 }
@@ -34,11 +35,13 @@
   display: block;
 }
 
-.full-width {
+.full-width,
+.w100 {
   width: 100%;
 }
 
-.w-half {
+.w-half,
+.w50 {
   width: 50%;
 }
 

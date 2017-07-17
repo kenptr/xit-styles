@@ -100,3 +100,7 @@
 .pl-semi {
   padding-left: var(--semi-lh);
 }
+
+.p0 {
+  padding: 0;
+}
