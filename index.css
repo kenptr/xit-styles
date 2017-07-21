@@ -1,7 +1,6 @@
 @import './modules/font-faces.css';
 @import 'normalize.css';
 @import 'tachyons-box-sizing';
-@import './modules/flexbox.css';
 @import './modules/body.css';
 @import './modules/viewport.css';
 @import './modules/type-scale.css';
@@ -19,3 +18,4 @@
 @import './modules/colors.css';
 @import './modules/border.css';
 @import './modules/editor.css';
+@import './modules/flexbox.css';
