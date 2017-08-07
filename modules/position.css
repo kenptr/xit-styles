@@ -8,6 +8,22 @@
   right: var(--lh);
 }
 
+.top-u {
+  top: var(--u);
+}
+
+.left-u {
+  left: var(--u);
+}
+
+.top-semi-lh {
+  top: var(--semi-lh);
+}
+
+.left-semi-lh {
+  left: var(--semi-lh);
+}
+
 .top-0 {
   top: 0;
 }
