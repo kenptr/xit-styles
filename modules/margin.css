@@ -113,3 +113,7 @@
 .mb-h2-h3 {
   margin-bottom: calc(8 / 16)rem;
 }
+
+.mb-3 {
+  margin-bottom: calc(48 / 16)rem;
+}

@@ -7,9 +7,9 @@
   border: 0;
 }
 
-.link:focus,
-.link:active,
-.link:active:focus {
+.link:not(.btn):focus,
+.link:not(.btn):active,
+.link:not(.btn):active:focus {
   outline: 0;
   border-radius: var(--r1);
   box-shadow: var(--outline2);
