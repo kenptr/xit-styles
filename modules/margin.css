@@ -1,76 +1,115 @@
 @import '../variables.css';
 
-.mb-u {
-  margin-bottom: var(--u);
+.m0 {
+  margin: 0;
+}
+.m-u {
+  margin: var(--u);
+}
+.m-semi {
+  margin: var(--semi-lh);
+}
+.m-lh {
+  margin: var(--lh);
 }
 
-.mb {
-  margin-bottom: var(--lh);
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.mb-double {
-  margin-bottom: calc(var(--lh) * 2);
+.mr-0 {
+  margin-right: 0;
+}
+.ml-0 {
+  margin-left: 0;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
+.mt-0 {
+  margin-top: 0;
 }
 
-.mb-semi {
-  margin-bottom: var(--semi-lh);
+.mx-0 {
+  margin-left: 0;
+  margin-right: 0;
 }
-
-.ml {
-  margin-left: var(--lh);
-}
-
-.ml-semi {
-  margin-left: var(--semi-lh);
-}
-
-.mr {
-  margin-right: var(--lh);
-}
-
-.mr-semi {
-  margin-right: var(--semi-lh);
+.my-0 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .mr-u {
   margin-right: var(--u);
 }
-
-.mx-semi {
-  margin-right: var(--semi-lh);
-  margin-left: var(--semi-lh);
+.ml-u {
+  margin-left: var(--u);
 }
-
-.mt {
-  margin-top: var(--lh);
+.mb-u {
+  margin-bottom: var(--u);
 }
-
-.mt-semi {
-  margin-top: var(--semi-lh);
-}
-
 .mt-u {
   margin-top: var(--u);
 }
 
-.my {
-  margin-top: var(--lh);
-  margin-bottom: var(--lh);
+.mx-u {
+  margin-left: var(--u);
+  margin-right: var(--u);
+}
+.my-u {
+  margin-top: var(--u);
+  margin-bottom: var(--u);
 }
 
+.mr-semi {
+  margin-right: var(--semi-lh);
+}
+.ml-semi {
+  margin-left: var(--semi-lh);
+}
+.mb-semi {
+  margin-bottom: var(--semi-lh);
+}
+.mt-semi {
+  margin-top: var(--semi-lh);
+}
+
+.mx-semi {
+  margin-left: var(--semi-lh);
+  margin-right: var(--semi-lh);
+}
 .my-semi {
   margin-top: var(--semi-lh);
   margin-bottom: var(--semi-lh);
 }
 
-.mb0 {
-  margin-bottom: 0;
+.mr {
+  margin-right: var(--lh);
+}
+.ml {
+  margin-left: var(--lh);
+}
+.mb {
+  margin-bottom: var(--lh);
+}
+.mt {
+  margin-top: var(--lh);
 }
 
-.mb-3 {
-  margin-bottom: calc(3 * var(--lh));
+.mx {
+  margin-left: var(--lh);
+  margin-right: var(--lh);
+}
+.my {
+  margin-top: var(--lh);
+  margin-bottom: var(--lh);
 }
 
-.m-u {
-  margin: var(--u);
+.mb-h1-h2 {
+  margin-bottom: calc(4 / 16)rem;
+}
+
+.mb-h2-h3 {
+  margin-bottom: calc(8 / 16)rem;
 }

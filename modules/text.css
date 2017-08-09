@@ -1,0 +1,131 @@
+@import '../variables.css';
+
+h1,
+h2,
+h3,
+h4 {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-family: var(--heading-family);
+}
+
+h1,
+.h1 {
+  font-size: var(--h1);
+  line-height: var(--lh1);
+}
+
+h2,
+.h2 {
+  font-size: var(--h2);
+  line-height: var(--lh2);
+}
+
+h3,
+.h3 {
+  font-size: var(--h3);
+  line-height: var(--lh3);
+}
+
+h4,
+.h4 {
+  font-size: var(--h4);
+  line-height: var(--lh4);
+}
+
+.lh1 {
+  line-height: var(--lh1);
+}
+
+.lh2 {
+  line-height: var(--lh2);
+}
+
+.lh3,
+.lh {
+  line-height: var(--lh3);
+}
+
+.lh4 {
+  line-height: var(--lh4);
+}
+
+ul,
+p,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+.regular {
+  font-weight: normal;
+}
+.italic {
+  font-style: italic;
+}
+.normal {
+  font-style: normal;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+.overline {
+  text-decoration: overline;
+}
+.underline {
+  border-bottom: 1px solid currentColor;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+.pre {
+  white-space: pre;
+}
+.pre-line {
+  white-space: pre-line;
+}
+.pre-wrap {
+  white-space: pre-wrap;
+}
+.nowrap {
+  white-space: nowrap;
+}
+
+.truncate {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+ul {
+  margin: 0;
+  padding: 0 0 0 var(--lh);
+}

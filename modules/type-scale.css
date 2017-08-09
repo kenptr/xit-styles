@@ -13,14 +13,14 @@ h6 {
 .h1,
 h1 {
   font-size: var(--h1);
-  font-family: var(--heading-font);
+  font-family: var(--heading-family);
   line-height: var(--lh1);
 }
 
 .h2,
 h2 {
   font-size: var(--h2);
-  font-family: var(--heading-font);
+  font-family: var(--heading-family);
   line-height: var(--lh2);
 }
 

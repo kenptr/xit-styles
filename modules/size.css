@@ -1,0 +1,22 @@
+@import '../variables.css';
+
+.w50 {
+  width: 50%;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.w {
+  width: var(--lh);
+}
+
+.w-2lh {
+  width: calc(2 * var(--lh));
+}
+
+.wh {
+  width: var(--lh);
+  height: var(--lh);
+}

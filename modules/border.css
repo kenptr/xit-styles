@@ -1,5 +1,9 @@
 @import '../variables.css';
 
+.r0 {
+  border-radius: 0;
+}
+
 .r1 {
   border-radius: var(--r1);
 }
@@ -49,17 +53,30 @@
   border-color: var(--secondary-1);
 }
 
-
 .border-lrb {
   border-top: 0;
 }
 
-.r1-b {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+.br-0 {
+  border-right: 0;
+}
+
+.r1-r {
+  border-top-right-radius: var(--r1);
+  border-bottom-right-radius: var(--r1);
+}
+
+.r1-l {
+  border-top-left-radius: var(--r1);
+  border-bottom-left-radius: var(--r1);
 }
 
 .r1-t {
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
+  border-top-left-radius: var(--r1);
+  border-top-right-radius: var(--r1);
+}
+
+.r1-b {
+  border-bottom-right-radius: var(--r1);
+  border-bottom-left-radius: var(--r1);
 }

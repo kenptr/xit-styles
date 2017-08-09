@@ -1,115 +1,111 @@
 @import '../variables.css';
 
-.pt-u {
-  padding-top: var(--u);
-}
-
-.pt-semi {
-  padding-top: var(--semi-lh);
-}
-
-.pt {
-  padding-top: var(--lh);
-}
-
-.py-semi-u {
-  padding-top: calc(var(--u) / 2);
-  padding-bottom: calc(var(--u) / 2);
-}
-
-.px-u {
-  padding-right: var(--u);
-  padding-left: var(--u);
-}
-
-.px-semi {
-  padding-right: var(--semi-lh);
-  padding-left: var(--semi-lh);
-}
-
-.px {
-  padding-right: var(--lh);
-  padding-left: var(--lh);
-}
-
-.py-u {
-  padding-top: var(--u);
-  padding-bottom: var(--u);
-}
-
-.py-semi {
-  padding-top: var(--semi-lh);
-  padding-bottom: var(--semi-lh);
-}
-
-.py {
-  padding-top: var(--lh);
-  padding-bottom: var(--lh);
-}
-
-.py0 {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-.py-double {
-  padding-top: calc(var(--lh) * 2);
-  padding-bottom: calc(var(--lh) * 2);
-}
-
-.py-input {
-  padding-top: calc(2 * var(--u));
-  padding-bottom: calc(2 * var(--u));
-}
-
-.p {
-  padding: var(--lh);
-}
-
-.p-semi {
-  padding: var(--semi-lh);
+.p0 {
+  padding: 0;
 }
 
 .p-u {
   padding: var(--u);
 }
 
-.pr {
-  padding-right: var(--lh);
+.p-semi {
+  padding: var(--semi-lh);
 }
 
-.pl {
-  padding-left: var(--lh);
-}
-
-.pl-0 {
-  padding-left: 0;
+.p-lh {
+  padding: var(--lh);
 }
 
 .pr-0 {
   padding-right: 0;
 }
-
-.pb {
-  padding-bottom: var(--lh);
+.pl-0 {
+  padding-left: 0;
+}
+.pb-0 {
+  padding-bottom: 0;
+}
+.pt-0 {
+  padding-top: 0;
 }
 
+.px-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.py-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.pr-u {
+  padding-right: var(--u);
+}
+.pl-u {
+  padding-left: var(--u);
+}
 .pb-u {
   padding-bottom: var(--u);
 }
+.pt-u {
+  padding-top: var(--u);
+}
 
-.pb-semi {
-  padding-bottom: var(--semi-lh);
+.px-u {
+  padding-left: var(--u);
+  padding-right: var(--u);
+}
+.py-u {
+  padding-top: var(--u);
+  padding-bottom: var(--u);
 }
 
 .pr-semi {
   padding-right: var(--semi-lh);
 }
-
 .pl-semi {
   padding-left: var(--semi-lh);
 }
+.pb-semi {
+  padding-bottom: var(--semi-lh);
+}
+.pt-semi {
+  padding-top: var(--semi-lh);
+}
 
-.p0 {
-  padding: 0;
+.px-semi {
+  padding-left: var(--semi-lh);
+  padding-right: var(--semi-lh);
+}
+.py-semi {
+  padding-top: var(--semi-lh);
+  padding-bottom: var(--semi-lh);
+}
+
+.pr {
+  padding-right: var(--lh);
+}
+.pl {
+  padding-left: var(--lh);
+}
+.pb {
+  padding-bottom: var(--lh);
+}
+.pt {
+  padding-top: var(--lh);
+}
+
+.px {
+  padding-left: var(--lh);
+  padding-right: var(--lh);
+}
+.py {
+  padding-top: var(--lh);
+  padding-bottom: var(--lh);
+}
+
+.py-input {
+  /* calc(12 / 16)rem */
+  padding-top: calc(6 / 16)rem;
+  padding-bottom: calc(6 / 16)rem;
 }

@@ -1,21 +1,28 @@
 @import './modules/font-faces.css';
-@import 'normalize.css';
+
+@import './modules/normalize.css';
 @import 'tachyons-box-sizing';
-@import './modules/body.css';
-@import './modules/viewport.css';
-@import './modules/type-scale.css';
-@import './modules/font-styles.css';
-@import './modules/z.css';
+
+@import './modules/html-body-reset.css';
+
 @import './modules/button.css';
-@import './modules/link.css';
 @import './modules/input.css';
-@import './modules/card.css';
-@import './modules/layout.css';
+@import './modules/link.css';
+
+@import './modules/viewport.css';
+@import './modules/display.css';
+@import './modules/flex.css';
 @import './modules/position.css';
-@import './modules/icons.css';
-@import './modules/margin.css';
+
+@import './modules/text.css';
+@import './modules/card.css';
+
 @import './modules/padding.css';
+@import './modules/margin.css';
+
+@import './modules/size.css';
+
+@import './modules/icons.css';
 @import './modules/colors.css';
 @import './modules/border.css';
 @import './modules/editor.css';
-@import './modules/flexbox.css';

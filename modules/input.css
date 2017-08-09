@@ -1,39 +1,54 @@
+.input-container {
+  position: relative;
+  border-radius: var(--r1);
+}
+
 .input {
   position: relative;
-  display: inline-block;
-  box-sizing: border-box;
+  display: block;
   margin: 0;
-  padding: 0;
-  padding: calc(2 * var(--u) - 1px) calc(3 * var(--u) - 1px);
-  min-width: 0;
-  max-width: 100%;
   width: 100%;
-  height: auto;
-  border: 1px solid var(--neutral-3);
+  border: 0;
   border-radius: var(--r1);
-  background: var(--neutral-0);
-  box-shadow: var(--inset-shadow);
+  background-color: transparent;
   color: inherit;
   vertical-align: baseline;
   text-decoration: none;
   font: inherit;
-  font-weight: normal;
+  font-size: var(--h3);
+  font-weight: inherit;
   line-height: inherit;
   -webkit-appearance: none;
+  padding: calc(6 / 16)rem calc(12 / 16)rem;
+  box-sizing: border-box;
+  z-index: 1;
 }
 
-.input[readonly] {
-  box-shadow: none;
+.input-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  background-color: var(--neutral-0);
+  box-shadow: var(--inset-shadow);
+  border: 1px solid var(--neutral-3);
 }
 
 .input:focus {
-  z-index: 1;
-  padding: calc(2 * var(--u)) calc(3 * var(--u));
   outline: 0;
-  border: 0;
-  box-shadow: var(--inset-shadow), var(--outline);
 }
 
-.input[disabled] {
+.input:focus + .input-backdrop {
+  border: 2px solid var(--secondary-1);
+}
+
+.input[readonly] + .input-backdrop {
+  box-shadow: none;
+}
+
+.input[disabled],
+.input[disabled] + .input-backdrop {
   opacity: .5;
 }

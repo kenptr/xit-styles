@@ -1,40 +1,46 @@
 :root {
-  /* Size unit */
   --u: .25rem; /* 4px */
 
   /* Font-families */
-  --system-font: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+  --system-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
     'Helvetica Neue', sans-serif;
-  --heading-font: 'Merriweather Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans', 'Helvetica Neue', sans-serif;
+  --heading-family: 'Merriweather Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
   /* Type scale */
-  --h1: calc(6.25 * var(--u)); /* 25px */
-  --h2: calc(5.25 * var(--u)); /* 21px */
-  --h3: calc(4 * var(--u)); /* 16px */
-  --h4: calc(3.25 * var(--u)); /* 13px */
+  --h1: calc(25 / 16)rem;
+  --lh1: calc(32 / 16)rem;
 
-  --lh1: calc(8 * var(--u)); /* 32px */
-  --lh2: calc(7 * var(--u)); /* 28px */
-  --lh3: calc(6 * var(--u)); /* 24px */
-  --lh4: calc(5 * var(--u)); /* 20px */
+  --h2: calc(21 / 16)rem;
+  --lh2: calc(28 / 16)rem;
+
+  --h3: calc(16 / 16)rem;
+  --lh3: calc(24 / 16)rem;
+
+  --h4: calc(13 / 16)rem;
+  --lh4: calc(20 / 16)rem;
 
   --print-h1: 15pt;
-  --print-h2: 12pt;
-  --print-h3: 9pt;
-  --print-h4: 7pt;
   --print-lh1: 16pt;
+
+  --print-h2: 12pt;
   --print-lh2: 16pt;
+
+  --print-h3: 9pt;
   --print-lh3: 12pt;
+
+  --print-h4: 7pt;
   --print-lh4: 12pt;
 
   /* Default type sizes */
   --h: var(--h3);
   --lh: var(--lh3);
+
   --semi-lh: calc(var(--lh) / 2);
 
   --print-h: var(--print-h3);
   --print-lh: var(--print-lh3);
+
   --print-semi-lh: calc(var(--print-lh) / 2);
 
   /* Colors */
@@ -55,17 +61,6 @@
   --r1: 3px;
   --r2: .5rem;
 
-  /* constraints */
-  /* 45 to 75 characters - ideal for reading */
-  --ct-h1-minwidth: calc(.8 * var(--h1) * 40);
-  --ct-h1-maxwidth: calc(.8 * var(--h1) * 75);
-  --ct-h2-minwidth: calc(.8 * var(--h2) * 40);
-  --ct-h2-maxwidth: calc(.8 * var(--h2) * 75);
-  --ct-h3-minwidth: calc(.8 * var(--h3) * 40);
-  --ct-h3-maxwidth: calc(.8 * var(--h3) * 75);
-  --ct-h4-minwidth: calc(.8 * var(--h4) * 40);
-  --ct-h4-maxwidth: calc(.8 * var(--h4) * 75);
-
   /* card maximum width */
   --ct-card-maxwidth: 48rem;
 
@@ -85,24 +80,20 @@
   --card-container-px--mobile-m: 1rem;
   --card-container-px--mobile-l: 1.5rem;
   --card-container-px--tablet: 2rem;
+
   --drop-shadow: 0px 8px 16px 4px rgba(51, 50, 71, 0.08), 0px 24px 24px -16px rgba(41, 41, 46, 0.44);
   --drop-shadow-1: 0px 8px 16px 4px rgba(51, 50, 71, 0.08), 0px 24px 24px -16px rgba(41, 41, 46, 0.44);
   --drop-shadow-2: 0 1px 2px color(var(--neutral-5) a(20%));
   --drop-shadow-3: 0px 1px 8px rgba(51, 50, 71, 0.2);
   --inset-shadow: inset 0 1px 2px color(var(--neutral-5) a(20%));
-  --outline: 0 0 0 2px var(--secondary-1);
+  --outline: 0 0 0 1px var(--secondary-1);
+  --outline2: 0 0 0 2px var(--secondary-1);
 }
 
 @custom-media --mobile-s (min-width: 320px);
-
 @custom-media --mobile-m (min-width: 375px);
-
 @custom-media --mobile-l (min-width: 425px);
-
 @custom-media --tablet (min-width: 768px);
-
 @custom-media --laptop (min-width: 1024px);
-
 @custom-media --laptop-l (min-width: 1440px);
-
 @custom-media --4k (min-width: 2560px);
