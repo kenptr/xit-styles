@@ -16,21 +16,24 @@
   -webkit-appearance: none;
 }
 
-.btn:focus {
-  z-index: 1;
-  outline: 0;
-}
-
-.btn:focus:before {
+.btn:before {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   display: block;
-  border: 2px solid var(--secondary-1);
   border-radius: inherit;
   content: '';
+}
+
+.btn:focus {
+  z-index: 1;
+  outline: 0;
+}
+
+.btn:focus:before {
+  border: 2px solid var(--secondary-1);
 }
 
 .btn:active {
@@ -62,6 +65,11 @@
   padding: 0 calc(4 / 16)rem;
   font-size: var(--h4);
   line-height: calc(24 / 16)rem;
+}
+
+.btn-neutral-0 {
+  border-radius: var(--r1);
+  background-color: var(--neutral-0);
 }
 
 .btn-neutral-1 {
@@ -127,4 +135,12 @@
 
 .btn-circle {
   border-radius: 50%;
+}
+
+.btn-outline {
+  background: transparent;
+}
+
+.btn-outline:before {
+  border: 1px solid currentColor;
 }
