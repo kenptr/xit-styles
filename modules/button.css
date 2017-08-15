@@ -22,15 +22,15 @@
 }
 
 .btn:focus:before {
-  content: '';
-  display: block;
   position: absolute;
   top: 0;
-  left: 0;
   right: 0;
   bottom: 0;
+  left: 0;
+  display: block;
   border: 2px solid var(--secondary-1);
   border-radius: inherit;
+  content: '';
 }
 
 .btn:active {
@@ -44,6 +44,7 @@
 
 .btn[disabled] {
   opacity: .5;
+  cursor: default;
 }
 
 .btn[disabled]:active {
@@ -51,67 +52,67 @@
 }
 
 .btn-h3 {
+  padding: 0 calc(24 / 16)rem;
   /* 16px font-size 32px target height */
   font-size: var(--h3);
   line-height: calc(36 / 16)rem;
-  padding: 0 calc(24 / 16)rem;
 }
 
 .btn-h4 {
+  padding: 0 calc(4 / 16)rem;
   font-size: var(--h4);
   line-height: calc(24 / 16)rem;
-  padding: 0 calc(4 / 16)rem;
 }
 
 .btn-neutral-1 {
-  background-color: var(--neutral-1);
   border-radius: var(--r1);
+  background-color: var(--neutral-1);
 }
 
 .btn-neutral-2 {
-  background-color: var(--neutral-2);
   border-radius: var(--r1);
+  background-color: var(--neutral-2);
 }
 
 .btn-neutral-3 {
-  background-color: var(--neutral-3);
   border-radius: var(--r1);
+  background-color: var(--neutral-3);
 }
 
 .btn-primary-1 {
-  background-color: var(--primary-1);
   border-radius: var(--r1);
+  background-color: var(--primary-1);
 }
 
 .btn-secondary-2 {
-  color: var(--neutral-1);
-  background-color: var(--secondary-2);
   border-radius: var(--r1);
+  background-color: var(--secondary-2);
+  color: var(--neutral-1);
 }
 
 .btn-joined {
+  flex-grow: 1;
+  flex-basis: 0;
   padding-top: var(--u);
   padding-bottom: var(--u);
   line-height: var(--lh3);
-  flex-grow: 1;
-  flex-basis: 0;
 }
 
 .btn-joined:before {
-  content: '';
-  display: block;
   position: absolute;
   top: 0;
-  left: 0;
   right: 0;
   bottom: 0;
-  border-radius: inherit;
+  left: 0;
+  display: block;
   border: 1px solid var(--neutral-3);
+  border-radius: inherit;
+  content: '';
 }
 
 .btn-selected {
-  color: var(--neutral-0);
   background-color: var(--secondary-1-2);
+  color: var(--neutral-0);
 }
 
 .btn-selected:before {
@@ -119,8 +120,8 @@
 }
 
 .btn-selected-neutral {
-  border-color: var(--neutral-3);
   z-index: 1;
+  border-color: var(--neutral-3);
   background-color: var(--neutral-3);
 }
 

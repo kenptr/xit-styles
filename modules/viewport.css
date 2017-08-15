@@ -28,7 +28,7 @@
 .show-modal .modal {
   display: block;
   position: relative;
-  z-index: 9999;
+  z-index: 2000;
   min-height: 100vh;
   background-color: color(var(--neutral-5) a(50%));
 }
