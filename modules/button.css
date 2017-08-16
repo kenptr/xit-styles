@@ -118,6 +118,15 @@
   content: '';
 }
 
+.btn-h3.btn-joined {
+  padding-right: calc(8 / 16)rem;
+  padding-left: calc(8 / 16)rem;
+}
+
+.btn-h4.btn-joined {
+  padding: 0 calc(8 / 16)rem;
+}
+
 .btn-selected {
   background-color: var(--secondary-1-2);
   color: var(--neutral-0);
