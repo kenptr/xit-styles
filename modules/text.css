@@ -119,8 +119,8 @@ ol {
 }
 
 .truncate {
-  max-width: 100%;
   overflow: hidden;
+  max-width: 100%;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
@@ -128,4 +128,8 @@ ol {
 ul {
   margin: 0;
   padding: 0 0 0 var(--lh);
+}
+
+.monospace {
+  font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
 }

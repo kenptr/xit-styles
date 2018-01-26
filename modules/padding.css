@@ -30,8 +30,8 @@
 }
 
 .px-0 {
-  padding-left: 0;
   padding-right: 0;
+  padding-left: 0;
 }
 .py-0 {
   padding-top: 0;
@@ -52,8 +52,8 @@
 }
 
 .px-u {
-  padding-left: var(--u);
   padding-right: var(--u);
+  padding-left: var(--u);
 }
 .py-u {
   padding-top: var(--u);
@@ -74,8 +74,8 @@
 }
 
 .px-semi {
-  padding-left: var(--semi-lh);
   padding-right: var(--semi-lh);
+  padding-left: var(--semi-lh);
 }
 .py-semi {
   padding-top: var(--semi-lh);
@@ -88,18 +88,21 @@
 .pl {
   padding-left: var(--lh);
 }
-.pb {
+.pb,
+.pb-lh {
   padding-bottom: var(--lh);
 }
 .pt {
   padding-top: var(--lh);
 }
 
-.px {
-  padding-left: var(--lh);
+.px,
+.px-lh {
   padding-right: var(--lh);
+  padding-left: var(--lh);
 }
-.py {
+.py,
+.py-lh {
   padding-top: var(--lh);
   padding-bottom: var(--lh);
 }

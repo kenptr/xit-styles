@@ -14,8 +14,8 @@
 }
 
 .mx-auto {
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 
 .mr-0 {
@@ -32,8 +32,8 @@
 }
 
 .mx-0 {
-  margin-left: 0;
   margin-right: 0;
+  margin-left: 0;
 }
 .my-0 {
   margin-top: 0;
@@ -54,8 +54,8 @@
 }
 
 .mx-u {
-  margin-left: var(--u);
   margin-right: var(--u);
+  margin-left: var(--u);
 }
 .my-u {
   margin-top: var(--u);
@@ -76,18 +76,18 @@
 }
 
 .mx-semi {
-  margin-left: var(--semi-lh);
   margin-right: var(--semi-lh);
+  margin-left: var(--semi-lh);
 }
 .my-semi {
   margin-top: var(--semi-lh);
   margin-bottom: var(--semi-lh);
 }
 
-.mr {
+.mr, .mr-lh {
   margin-right: var(--lh);
 }
-.ml {
+.ml, .ml-lh {
   margin-left: var(--lh);
 }
 .mb {
@@ -98,8 +98,8 @@
 }
 
 .mx {
-  margin-left: var(--lh);
   margin-right: var(--lh);
+  margin-left: var(--lh);
 }
 .my {
   margin-top: var(--lh);
