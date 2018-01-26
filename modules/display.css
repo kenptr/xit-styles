@@ -36,7 +36,7 @@
 
 .clearfix:before,
 .clearfix:after {
-  content: " ";
+  content: ' ';
   display: table;
 }
 .clearfix:after {
@@ -44,4 +44,16 @@
 }
 .clearfix {
   *zoom: 1;
+}
+
+@media print {
+  .print-block {
+    display: block;
+  }
+}
+
+@media screen {
+  .screen-none {
+    display: none;
+  }
 }
